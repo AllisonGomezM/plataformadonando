@@ -15,8 +15,9 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="<?= base_url()?>#somos">Quienes somos</a></li>
           <li><a href="<?= base_url()?>#about">Dona por la Guajira</a></li>
-          <li><a href="<?= base_url()?>#services">Qué lograremos</a></li>
+          <li><a href="<?= base_url()?>#facts">Qué lograremos</a></li>
           <li><a href="<?= base_url()?>#portfolio">Sé voluntario</a></li>
           <li><a href="<?= base_url()?>#contact">Contactanos</a></li>
         </ul>
@@ -32,13 +33,40 @@
     <div class="hero-container">
       <h1>Cruzada por la Guajira</h1>
       <h2>Más de 4.700 niños han muerto durante los últimos 8 años en la Guajira por causa de la desnutrición y más de 248 niños están en riesgo. </h2>
-      <h2>Ayuda a que este número disminuya.</h2>
+      <h2>¡Tú también puedes donar sonrisas y gotitas de amor!</h2>
       <a href="<?= base_url()?>#about" class="btn-get-started">Dona por la Guajira</a>
     </div>
   </section><!-- #hero -->
+<br>
+<br>
+<br>
 
   <main id="main">
 
+  
+        <!--==========================
+      somos Section
+    ============================-->
+    <section id="somos">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">Quienes somos</h3>
+          <p class="section-description">Somos una organización sin ánimo de lucro, que se preocupa por la niñez en Colombia.<br>
+          Queremos regalar sonrisas a los niños en condiciones vulnerables y brindarles los recursos necesarios para su educación y bienestar.
+       </p>
+       
+    </div>
+        <div class="row center" >
+        <img src="<?= base_url()?>template/Regna/img/guajira.png" alt="">
+        <img src="<?= base_url()?>template/Regna/img/guajira2.png" alt="">
+
+        </div>
+
+    </section><!-- #somos -->
+ <br>
+ <br>
+ <br>
+   
     <!--==========================
       About Us Section
     ============================-->
@@ -50,7 +78,10 @@
             <h2 class="title">Dona por la Guajira</h2>
             <p>
             Más de 4.700 niños han muerto durante los últimos 8 años en la Guajira por causa de la desnutrición y más de 248 niños están en riesgo.
-            </p>
+        <br>
+        Por eso queremos llevar sonrisas a los niños de la Guajira, no solo queremos darles regalos y kit escolares, también queremos darles
+        agua potable a ellos y sus familias, personal médico que los atienda y las suficientes medicinas para su salud y bienestar.    
+        </p>
 
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-cutlery"></i></div>
@@ -76,11 +107,14 @@
 
       </div>
     </section><!-- #about -->
+<br>
+<br>
+<br>
 
-    <!--==========================
-      servicio Section
+        <!--==========================
+      Facts Section
     ============================-->
-    <section id="services">
+    <section id="facts">
       <div class="container wow fadeIn">
         <div class="section-header">
           <h3 class="section-title">Qué lograremos</h3>
@@ -88,23 +122,23 @@
         </div>
         <div class="row counters">
 
-  				<div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">1.</span>
+  			<div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">0</span>
             <p>Ayudar a más de 248 niños en riesgo de desnutrición.</p>
   				</div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">2.</span>
+            <span data-toggle="counter-up">0</span>
             <p>Hacer entrega de agua potable.</p>
   				</div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">3.</span>
+            <span data-toggle="counter-up">0</span>
             <p>Hacer entrega de alimentos no perecederos.</p>
   				</div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">4.</span>
+            <span data-toggle="counter-up">1000</span>
             <p>Regalar una sonrisa a un pequeño.</p>
   				</div>
 
@@ -112,7 +146,12 @@
 
       </div>
     </section><!-- #facts -->
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
     <!--==========================
     Call To Action Section
@@ -125,7 +164,7 @@
             <p class="cta-text"> Tienes alguna duda, contactanos.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?= base_url()?>#">Llamanos</a>
+            <a class="cta-btn align-middle" href="#">Llamanos</a>
           </div>
         </div>
 
@@ -151,7 +190,7 @@
           </div>
         </div>
         <div class="row" id="portfolio-wrapper"text-center>
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-3 col-md-12 portfolio-item filter-app">
             <a href="<?= base_url()?>">
               <img src="<?= base_url()?>template/Regna/img/portfolio/app1.jpg" alt="">
               <div class="details">
