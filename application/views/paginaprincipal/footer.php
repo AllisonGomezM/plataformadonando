@@ -11,7 +11,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>INK</strong>. All Rights Reserved
+        &copy; Copyright 2019 <strong>DESARROLLADO POR INK AGENCIA DIGITAL</strong>. All Rights Reserved
     
   </footer><!-- #footer -->
 
