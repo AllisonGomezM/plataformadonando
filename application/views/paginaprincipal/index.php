@@ -7,7 +7,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="<?= base_url()?>template/Regna/img/logo.png" alt="" title="" /></a>
+        <a href="#hero"><img src="<?= base_url()?>template/Regna/img/donando.png" alt="" title="" /></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#hero">Regna</a></h1>-->
       </div>
@@ -21,6 +21,7 @@
           <li><a href="<?= base_url()?>#portfolio">Sé voluntario</a></li>
           <li><a href="<?= base_url()?>#contact">Contactanos</a></li>
         </ul>
+        <br> <br><br><br>
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
@@ -55,11 +56,19 @@
        </p>
        
     </div>
-      <div >
-        <img src="<?= base_url()?>template/Regna/img/1.png" alt="">
-        <img src="<?= base_url()?>template/Regna/img/2.png" alt="">
-        <img src="<?= base_url()?>template/Regna/img/3.png" alt="">
-        <img src="<?= base_url()?>template/Regna/img/4.png" alt="">
+      <div class="row">
+      <div class="col-md-3">
+      <img src="<?= base_url()?>template/Regna/img/1.png" alt="">
+      </div>
+      <div class="col-md-3">
+      <img src="<?= base_url()?>template/Regna/img/2.png" alt="">
+      </div>
+      <div class="col-md-3">
+      <img src="<?= base_url()?>template/Regna/img/3.png" alt="">
+      </div>
+      <div class="col-md-3">
+      <img src="<?= base_url()?>template/Regna/img/4.png" alt="">
+      </div>
       </div>
 
     </section><!-- #somos -->
@@ -85,7 +94,7 @@
 
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-cutlery"></i></div>
-              <h4 class="title"><a href="<?= base_url()?>">Niños Saludables</a></h4>
+              <h4 class="title">Niños Saludables</h4>
               <p class="description">La buena nutrición hace parte fundamental de la primera infancia, queremos ayudar a que estos
                   infantes tenga una comida de calidad y saludable.
               </p>
@@ -93,7 +102,7 @@
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-heart"></i></div>
-              <h4 class="title"><a href="">Asistencia Médica</a></h4>
+              <h4 class="title">Asistencia Médica</h4>
               <p class="description">Una asistencia médica a tiempo puede salvar la vida de los más de 248 los niños en riego de desnutrición.</p>
             </div>
 
@@ -101,15 +110,24 @@
           </div>
 
           <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight">
+         
           <!-- revisar Script para el cambio de iagen en #about -->
           </div>
         </div>
 
       </div>
     </section><!-- #about -->
-<br>
-<br>
 
+<div class="container text-center">
+      <a class="btn btn-info btn-md" href="tel:+3223459431"><i class="fa fa-phone"></i>&nbsp;&nbsp;322 345 94 31</a>
+      <a class="btn btn-success btn-md" href="http://api.whatsapp.com/send?phone=573223459431"><i class="fa fa-whatsapp"></i>&nbsp;&nbsp;322 345 94 31</a>
+</div>
+<br>
+<div class="container text-center">
+            <h3 class="text-info"><b>#ApoyoCruzadaXLaGuajira</b></h3>
+            <a href="https://www.facebook.com/groups/1610017615960811/" class="btn btn-simple btn-round btn-dark btn-lg"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/sonrisasdonando/?hl=es-la" class="btn btn-simple btn-round btn-dark btn-lg"><i class="fa fa-instagram"></i></a>
+</div>
 
  <!--==========================
       About Us Section
@@ -119,7 +137,12 @@
         <div class="row about-container">
 
           <div class="col-lg-6 content order-lg-1 order-2">
-            <h2 class="title">Cómo puedes dona por la Guajira</h2>
+          <img  class="img-fluid" src="<?= base_url()?>template/Regna/img/pulsera.jpg" alt="">
+          </div>
+
+          <div class="col-lg-6  order-lg-2 order-1 wow fadeInRight">
+         <br><br>
+          <h2 class="title">Cómo puedes donar por la Guajira</h2>
             
 
             <div class="icon-box wow fadeInUp">
@@ -131,7 +154,7 @@
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-credit-card-alt"></i></div>
-              <h4 class="title"><a href="">Aporte Voluntario</a></h4>
+              <h4 class="title">Aporte Voluntario</h4>
               <a href="" class="btn-get-started col-4">Aporta aquí</a>
               <p class="description">Tú aporte economico lo puedes realizar por medio de: PayU y consignaciones bancarias.
               <br>
@@ -141,16 +164,11 @@
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-cutlery"></i></div>
-              <h4 class="title"><a href="">Dona alimentos, agua, ropa o juguetes </a></h4>
-              <a href="" class="btn-get-started col-4">Conoce los lugares aquí</a>
+              <h4 class="title">Dona alimentos, agua, ropa o juguetes</h4>
+              <button  class="info btn btn-get-started btn-link" data-toggle="modal" data-target="#lugares">Conoce los lugares aquí</button>
               <p class="description">Conoce los diferentes lugares en dónde recibiremos tu donación</p>
             </div>
 
-
-          </div>
-
-          <div class="col-8 col-lg-6  order-lg-2 order-1 wow fadeInRight">
-          <img src="<?= base_url()?>template/Regna/img/pulsera.jpg" alt="">
 
           <!-- revisar Script para el cambio de iagen en #about -->
           </div>
@@ -172,16 +190,16 @@
             <h3 class="cta-title">Llamanos</h3>
             <p class="cta-text"> Tienes alguna duda, contactanos.</p>
             <div >
-            <a href="<?= base_url()?>https://www.facebook.com/groups/1610017615960811/" class="facebook"><i class="fa fa-facebook"></i>   Donando Sonrisas Facatativá</a>
+            <a href="https://www.facebook.com/groups/1610017615960811/" class="facebook"><i class="fa fa-facebook"></i>   Donando Sonrisas Facatativá</a>
             <br>
-            <a href="<?= base_url()?>https://www.instagram.com/sonrisasdonando/?hl=es-la" class="instagram"><i class="fa fa-instagram"></i>  @sonrisasdonando</a>
+            <a href="https://www.instagram.com/sonrisasdonando/?hl=es-la" class="instagram"><i class="fa fa-instagram"></i>  @sonrisasdonando</a>
             <br>
-            <a href="<?= base_url()?>http://api.whatsapp.com/send?phone=573223459431" class="telefono"><i class="fa fa-whatsapp "></i>   +57 322 345 9431 </a>
+            <a href="http://api.whatsapp.com/send?phone=573223459431" class="telefono"><i class="fa fa-whatsapp "></i>   +57 322 345 9431 </a>
          
             </div>
             </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?= base_url()?>tel:+573223459431">Llamanos</a>
+            <a class="cta-btn align-middle" href="tel:+573223459431">Llamanos</a>
           </div>
 
         </div>
@@ -195,97 +213,166 @@
     <section id="facts">
       <div class="container wow fadeIn">
         <div class="section-header">
-          <h3 class="section-title">Qué lograremos</h3>
-          <p class="section-description">Con tu ayuda lograremos:</p>
+          <h3 class="section-title">CON TU AYUDA</h3>
+          <p class="section-description">Lograremos</p>
         </div>
         <div class="row counters text-center">
 
-  			<div class="col-lg-3 col-6 text-center">
+  			<div class="col-lg-6 col-6 text-center">
+            <span data-toggle="counter-up">4</span>
+            <p>Llegar a 4 rancherias de la Guajira.
+            <br>(Chochimona, Carrisal, Candon, Comunidad del cerro)</p>
+  				</div>
+
+          <div class="col-lg-6 col-6 text-center">
+            <span data-toggle="counter-up">500</span>
+            <p>Hacer entrega 500 ayudas y donaciones.</p>
+  				</div>
+
+        </div>
+        <div class="row counters text-center">
+          <div class="col-lg-4 col-6 text-center">
             <span data-toggle="counter-up">248</span>
             <p>Ayudar a más de 248 niños en riesgo de desnutrición.</p>
   				</div>
 
-          <div class="col-lg-3 col-6 text-center">
+          <div class="col-lg-4 col-6 text-center">
             <span data-toggle="counter-up">1000</span>
             <p>Hacer entrega 1000 bolsas de agua potable de 5lt.</p>
   				</div>
 
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">1000</span>
-            <p>Hacer entrega de 10000 mercados con alimentos no perecederos.</p>
+          <div class="col-lg-4 col-6 text-center">
+            <span data-toggle="counter-up">500</span>
+            <p>Hacer entrega de 500 mercados con alimentos no perecederos.</p>
   				</div>
-
-          <div class="col-lg-3 col-6 text-center">
+         
+  			</div>
+        <div class="row counters text-center">
+        <div class="col-lg-4 col-6 text-center">
             <span data-toggle="counter-up">1000</span>
             <p>Hacer entrega de 1000 prendas de ropa.</p>
   				</div>
 
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">1000</span>
-            <p>Hacer entrega de 100 juguetes a los niños.</p>
+          <div class="col-lg-4 col-6 text-center">
+            <span data-toggle="counter-up">200</span>
+            <p>Hacer entrega de 200 juguetes a los niños.</p>
   				</div>
 
-          <div class="col-lg-3 col-6 text-center">
+          <div class="col-lg-4 col-6 text-center">
             <span data-toggle="counter-up">10000</span>
             <p>Regalar más de 10000 sonrisas.</p>
   				</div>
          
   			</div>
+        
         <br>
         <h3 class="section-title text-center">¡Tú también puedes donar sonrisas y gotitas de amor!</h3>
 
       </div>
     </section><!-- #facts -->
 <br>
+<div class="container text-center">
+      <a class="btn btn-info btn-md" href="tel:+3223459431"><i class="fa fa-phone"></i>&nbsp;&nbsp;322 345 94 31</a>
+      <a class="btn btn-success btn-md" href="http://api.whatsapp.com/send?phone=573223459431"><i class="fa fa-whatsapp"></i>&nbsp;&nbsp;322 345 94 31</a>
+</div>
+<br>
+<div class="container text-center">
+            <h3 class="text-info"><b>#CruzadaXLaGuajira</b></h3>
+            <a href="https://www.facebook.com/groups/1610017615960811/" class="btn btn-simple btn-round btn-dark btn-lg"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/sonrisasdonando/?hl=es-la" class="btn btn-simple btn-round btn-dark btn-lg"><i class="fa fa-instagram"></i></a>
+</div>
 
     <!--==========================
       Portfolio Section
     ============================-->
+    <BR></BR>
     <section id="portfolio">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h3 class="section-title">Se volutario</h3>
+          <h3 class="section-title">Se voluntario</h3>
           <br>
           <p class="section-description">Puedes ser parte de nuestro equipo como voluntario LOGISTICO o voluntario PROFESIONAL DE LA SALUD</p>
-        </div>
+                </div>
       <div class="container wow fadeInUp mt-4">
         <div class="row justify-content-center">
-          <div class="col-lg-6 col-md-9">
-            <div class="form">
-              <!-- <div id="sendmessage">Tu mensaje se ha enviado. Gracias!</div> -->
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Por favor ingresa tu nombre" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Tu correo" data-rule="email" data-msg="Por favor ingresa tu correo" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="telefono" id="telefono" placeholder="Tu telefono" data-rule="minlen:4" data-msg="Por favor ingresa tu telefono" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="tipo" id="tipo" placeholder="Voluntario en" data-rule="minlen:4" data-msg="Por favor ingresa voluntariado te postulas" />
-                  <div class="validation"></div>
-                </div>
-                <div class="text-center"><button type="submit">Postulate</button></div>
-              </form>
-            </div>
-          </div>
-
+        <a href="http://api.whatsapp.com/send?phone=573223459431&text=Quiero ser voluntario mi nombre es: " class="btn btn-success btn-lg"> UNETE A NOSOTROS </a>
+         
         </div>
 
       </div> 
-      <br>
-      <br>       
+      <br> 
+      <br>      
       <div class=" justify-content-center " >
-        <img src="<?= base_url()?>template/Regna/img/1.png" alt="">
-        <img src="<?= base_url()?>template/Regna/img/2.png" alt="">
-        <img src="<?= base_url()?>template/Regna/img/3.png" alt="">
-        <img src="<?= base_url()?>template/Regna/img/4.png" alt="">
+      <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+<!-- Carousel items -->
+ <div class="carousel-inner">
+
+     <div class="carousel-item active">
+         <div class="row">
+             <div class="col">
+                 <a href="#">
+                     <img class="img-fluid" src="<?= base_url()?>template/Regna/img/10.png" alt="Image" style="max-width:100%;">
+                 </a>
+             </div>
+             <div class="col">
+                 <a href="#">
+                     <img class="img-fluid"src="<?= base_url()?>template/Regna/img/7.png" alt="Image" style="max-width:100%;">
+                 </a>
+             </div>
+             <div class="col">
+                 <a href="#">
+                     <img  class="img-fluid" src="<?= base_url()?>template/Regna/img/9.png" alt="Image" style="max-width:100%;">
+                 </a>
+             </div>
+             <div class="col">
+                 <a href="#">
+                     <img class="img-fluid" src="<?= base_url()?>template/Regna/img/5.png" alt="Image" style="max-width:100%;">
+                 </a>
+             </div>
+         </div>
+         <!--.row-->
+     </div>
+     <!--.item-->
+
+     <div class="carousel-item">
+         <div class="row">
+             <div class="col">
+                 <a href="#">
+                     <img  src="<?= base_url()?>template/Regna/img/12.png" alt="Image" style="max-width:100%;">
+                 </a>
+             </div>
+             <div class="col">
+                 <a href="#">
+                     <img class="img-fluid" src="<?= base_url()?>template/Regna/img/8.png" alt="Image" style="max-width:100%;">
+                 </a>
+             </div>
+             <div class="col">
+                 <a href="#">
+                     <img class="img-fluid" src="<?= base_url()?>template/Regna/img/11.png" alt="Image" style="max-width:100%;">
+                 </a>
+             </div>
+             <div class="col">
+                 <a href="#">
+                     <img class="img-fluid" src="<?= base_url()?>template/Regna/img/6.png" alt="Image" style="max-width:100%;">
+                 </a>
+             </div>
+         </div>
+         <!--.row-->
+     </div>
+     <!--.item-->
+     <a class="carousel-control-prev" href="#blogCarousel" role="button" data-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="sr-only">Anterior</span>
+ </a>
+ <a class="carousel-control-next" href="#blogCarousel" role="button" data-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="sr-only">Siguiente</span>
+ </a>
+ </div>
+ <!--.carousel-inner-->
+
+
       </div>
     </section><!-- #portfolio -->
     
@@ -325,9 +412,9 @@
             </div>
 
             <div class="social-links">
-            <a href="<?= base_url()?>https://www.facebook.com/groups/1610017615960811/" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="<?= base_url()?>https://www.instagram.com/sonrisasdonando/?hl=es-la" class="instagram"><i class="fa fa-instagram"></i></a>
-            <a href="<?= base_url()?>http://api.whatsapp.com/send?phone=573223459431" class="telefono"><i class="fa fa-whatsapp "></i></a>
+            <a href="https://www.facebook.com/groups/1610017615960811/" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/sonrisasdonando/?hl=es-la" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a href="http://api.whatsapp.com/send?phone=573223459431" class="telefono"><i class="fa fa-whatsapp "></i></a>
           </div>
 
           </div>
@@ -359,4 +446,33 @@
       </div>
     </section><!-- #contact -->
 
+<!-- Modal -->
+<div class="modal fade" id="lugares" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Recepción de ayudas</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+             <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Bogotá<br>Cundinamarca</p>
+              </div>
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Bogotá<br>Cundinamarca</p>
+              </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
   </main>
+
+  
