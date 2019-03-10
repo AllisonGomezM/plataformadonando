@@ -119,8 +119,8 @@
     </section><!-- #about -->
 
 <div class="container text-center">
-      <a class="btn btn-info btn-md" href="tel:+3223459431"><i class="fa fa-phone"></i>&nbsp;&nbsp;322 345 94 31</a>
-      <a class="btn btn-success btn-md" href="http://api.whatsapp.com/send?phone=573223459431"><i class="fa fa-whatsapp"></i>&nbsp;&nbsp;322 345 94 31</a>
+      <a class="btn btn-info btn-md" href="tel:+3053260730"><i class="fa fa-phone"></i>&nbsp;&nbsp;305 326 07 30</a>
+      <a class="btn btn-success btn-md" href="http://api.whatsapp.com/send?phone=573053260730"><i class="fa fa-whatsapp"></i>&nbsp;&nbsp;305 326 07 30</a>
 </div>
 <br>
 <div class="container text-center">
@@ -149,14 +149,14 @@
               <div class="icon"><i class="fa fa-heart-o"></i></div>
               <h4 class="title"><a href="<?= base_url()?>">Compra una Manilla</a></h4>
               <a href="" class="btn-get-started col-4">Compra aquí</a>
-              <p class="description">El valor de la manilla es de $10.000</p>
+              <p class="description">El valor de la manilla es de $10.000 esto sera destinado a la compra de alimentos no perecederos y agua potable.</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-credit-card-alt"></i></div>
               <h4 class="title">Aporte Voluntario</h4>
               <a href="" class="btn-get-started col-4">Aporta aquí</a>
-              <p class="description">Tú aporte economico lo puedes realizar por medio de: PayU y consignaciones bancarias.
+              <p class="description">Tú aporte economico lo puedes realizar por medio de: PayU y consignaciones bancarias, mínimo $10.000.
               <br>
               ¡Tú también puedes donar sonrisas y gotitas de amor!
               </p>
@@ -194,12 +194,12 @@
             <br>
             <a href="https://www.instagram.com/sonrisasdonando/?hl=es-la" class="instagram"><i class="fa fa-instagram"></i>  @sonrisasdonando</a>
             <br>
-            <a href="http://api.whatsapp.com/send?phone=573223459431" class="telefono"><i class="fa fa-whatsapp "></i>   +57 322 345 9431 </a>
+            <a href="http://api.whatsapp.com/send?phone=573053260730" class="telefono"><i class="fa fa-whatsapp "></i>   +57 305 326 07 30 </a>
          
             </div>
             </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="tel:+573223459431">Llamanos</a>
+            <a class="cta-btn align-middle" href="tel:+573053260730">Llamanos</a>
           </div>
 
         </div>
@@ -226,7 +226,7 @@
 
           <div class="col-lg-6 col-6 text-center">
             <span data-toggle="counter-up">500</span>
-            <p>Hacer entrega 500 ayudas y donaciones.</p>
+            <p>Hacer entrega 500 ayudas a las diferentes rancherias de la Guajira. </p>
   				</div>
 
         </div>
@@ -249,8 +249,8 @@
   			</div>
         <div class="row counters text-center">
         <div class="col-lg-4 col-6 text-center">
-            <span data-toggle="counter-up">1000</span>
-            <p>Hacer entrega de 1000 prendas de ropa.</p>
+            <span data-toggle="counter-up">500</span>
+            <p>Hacer entrega de 500 prendas de ropa.</p>
   				</div>
 
           <div class="col-lg-4 col-6 text-center">
@@ -272,8 +272,8 @@
     </section><!-- #facts -->
 <br>
 <div class="container text-center">
-      <a class="btn btn-info btn-md" href="tel:+3223459431"><i class="fa fa-phone"></i>&nbsp;&nbsp;322 345 94 31</a>
-      <a class="btn btn-success btn-md" href="http://api.whatsapp.com/send?phone=573223459431"><i class="fa fa-whatsapp"></i>&nbsp;&nbsp;322 345 94 31</a>
+      <a class="btn btn-info btn-md" href="tel:+3053260730"><i class="fa fa-phone"></i>&nbsp;&nbsp;305 326 07 30</a>
+      <a class="btn btn-success btn-md" href="http://api.whatsapp.com/send?phone=573053260730"><i class="fa fa-whatsapp"></i>&nbsp;&nbsp;305 326 07 30</a>
 </div>
 <br>
 <div class="container text-center">
@@ -295,7 +295,7 @@
                 </div>
       <div class="container wow fadeInUp mt-4">
         <div class="row justify-content-center">
-        <a href="http://api.whatsapp.com/send?phone=573223459431&text=Quiero ser voluntario mi nombre es: " class="btn btn-success btn-lg"> UNETE A NOSOTROS </a>
+        <a href="http://api.whatsapp.com/send?phone=573053260730&text=Quiero ser voluntario mi nombre es: " class="btn btn-success btn-lg"> UNETE A NOSOTROS </a>
          
         </div>
 
@@ -407,14 +407,14 @@
 
               <div>
                 <i class="fa fa-phone"></i>
-                <p>+57 322 345 9431</p>
+                <p>+57 305 326 07 30</p>
               </div>
             </div>
 
             <div class="social-links">
             <a href="https://www.facebook.com/groups/1610017615960811/" class="facebook"><i class="fa fa-facebook"></i></a>
             <a href="https://www.instagram.com/sonrisasdonando/?hl=es-la" class="instagram"><i class="fa fa-instagram"></i></a>
-            <a href="http://api.whatsapp.com/send?phone=573223459431" class="telefono"><i class="fa fa-whatsapp "></i></a>
+            <a href="http://api.whatsapp.com/send?phone=573053260730" class="telefono"><i class="fa fa-whatsapp "></i></a>
           </div>
 
           </div>

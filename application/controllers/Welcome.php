@@ -18,6 +18,19 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+	public function sendmsg()
+	{
+		ini_set( 'display_errors', 1 );
+		error_reporting( E_ALL );
+		$from = "donandosonrisascol@gmail.com";
+		$to = "donandosonrisascol@gmail.com";
+		$subject = "Quiero donar una sonrisa";
+		$message = "Quiero contactarme con ustedes, quiero ser parte de esta cruzada. YO APOYO LA CRUZADA POR LA GUAJIRA";
+		$headers = "From:" . $from;
+		mail($to,$subject,$message, $headers);
+		echo "The email message was sent.";
+	}
 	public function __construct(){
 		parent::__construct();
 		$this->load->helper('url');
