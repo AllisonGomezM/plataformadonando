@@ -21,15 +21,20 @@ class Welcome extends CI_Controller {
 
 	public function sendmsg()
 	{
+		$this->load->helper('form');
 		ini_set( 'display_errors', 1 );
 		error_reporting( E_ALL );
-		$from = "donandosonrisascol@gmail.com";
-		$to = "donandosonrisascol@gmail.com";
-		$subject = "Quiero donar una sonrisa";
-		$message = "Quiero contactarme con ustedes, quiero ser parte de esta cruzada. YO APOYO LA CRUZADA POR LA GUAJIRA";
+		$from = "alisgomez18@gmail.com";
+		$to = "alisgomez18@gmail.com";
+		$subject =$this->input->post("name", "Quiero contactarme con ustedes, quiero ser parte de esta cruzada. YO APOYO LA CRUZADA POR LA GUAJIRA") ;
+		$message = $this->input->post("message") ;
 		$headers = "From:" . $from;
-		mail($to,$subject,$message, $headers);
-		echo "The email message was sent.";
+		if(mail($to,$subject,$message, $headers)){
+			echo "The email message was sent.";
+		}else{
+			echo "The email message not sent.";	
+		}
+
 	}
 	public function __construct(){
 		parent::__construct();

@@ -423,7 +423,7 @@
             <div class="form">
               <div id="sendmessage">Tu mensaje se ha enviado. Gracias!</div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+              <form action="<?= base_url();?>index.php/welcome/sendmsg" method="post" role="form" >
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Por favor ingresa tu nombre" />
                   <div class="validation"></div>
