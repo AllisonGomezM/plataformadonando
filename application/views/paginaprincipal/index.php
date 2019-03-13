@@ -15,7 +15,7 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
-          <li><a href="<?= base_url()?>#somos">Quienes somos</a></li>
+          <li><a href="<?= base_url()?>#somos">Quiénes somos</a></li>
           <li><a href="<?= base_url()?>#about">Dona por la Guajira</a></li>
           <li><a href="<?= base_url()?>#facts">Qué lograremos</a></li>
           <li><a href="<?= base_url()?>#portfolio">Sé voluntario</a></li>
@@ -50,7 +50,7 @@
     <section id="somos">
       <div class="container wow fadeIn">
         <div class="section-header">
-          <h3 class="section-title">Quienes somos</h3>
+          <h3 class="section-title">Quiénes somos</h3>
           <p class="section-description">Somos una organización sin ánimo de lucro, que se preocupa por la niñez en Colombia.<br>
           Queremos regalar sonrisas a los niños en condiciones vulnerables y brindarles los recursos necesarios para su educación y bienestar.
        </p>
@@ -187,7 +187,7 @@
       <div class="container wow fadeIn">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Llamanos</h3>
+            <h3 class="cta-title">Llámanos</h3>
             <p class="cta-text"> Tienes alguna duda, contactanos.</p>
             <div >
             <a href="https://www.facebook.com/groups/1610017615960811/" class="facebook"><i class="fa fa-facebook"></i>   Donando Sonrisas Facatativá</a>
@@ -199,7 +199,7 @@
             </div>
             </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="tel:+573053260730">Llamanos</a>
+            <a class="cta-btn align-middle" href="tel:+573053260730">Llámanos</a>
           </div>
 
         </div>
@@ -221,7 +221,7 @@
   			<div class="col-lg-6 col-6 text-center">
             <span data-toggle="counter-up">4</span>
             <p>Llegar a 4 rancherias de la Guajira.
-            <br>(Chochimona, Carrisal, Candon, Comunidad del cerro)</p>
+            <br>(Chochimona, Carrizal, Alphir, Comunidad del cerro)</p>
   				</div>
 
           <div class="col-lg-6 col-6 text-center">
@@ -415,7 +415,6 @@
 
       <div class="container wow fadeInUp mt-4"> 
         <div class="row justify-content-center">
-        <img src="<?= base_url()?>template/Regna/img/donando.jpg" alt="">
           <div class="col-lg-3 col-md-4">
 
             <div class="info">
@@ -426,7 +425,10 @@
 
               <div>
                 <i class="fa fa-envelope"></i>
-                <p>donandosonrisascol@gmail.com</p>
+                <p>donandosonrisascol@gmail.com
+                  <br>
+                   cruzadaxlaguajira@gmail.com
+                </p>
               </div>
 
               <div>
@@ -464,11 +466,15 @@
               </form>
             </div>
           </div>
-
         </div>
-
       </div>
     </section><!-- #contact -->
+
+    <div class="text-center col-12" >
+    <img class="img-fluid" src="<?= base_url()?>template/Regna/img/donando.jpg" href="https://www.facebook.com/groups/1610017615960811/" alt="">
+    <img class="img-fluid" src="<?= base_url()?>template/Regna/img/donando.jpg" href="https://www.facebook.com/groups/1610017615960811/" alt="">
+
+    </div>
 
 <!-- Modal -->
 <div class="modal fade" id="lugares" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
