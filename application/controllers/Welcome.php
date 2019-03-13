@@ -24,8 +24,10 @@ class Welcome extends CI_Controller {
 		$this->load->helper('form');
 		ini_set( 'display_errors', 1 );
 		error_reporting( E_ALL );
-		$from = "alisgomez18@gmail.com";
-		$to = "alisgomez18@gmail.com";
+		$from =  $this->input->post("email");
+		$cc="gestion@inkdigital.com";
+		$cco="soporte@inkdigital.com";
+		$to = "donandosonrisascol@gmail.com";
 		$subject =$this->input->post("name", "Quiero contactarme con ustedes, quiero ser parte de esta cruzada. YO APOYO LA CRUZADA POR LA GUAJIRA") ;
 		$message = $this->input->post("message") ;
 		$headers = "From:" . $from;

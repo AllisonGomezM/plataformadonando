@@ -277,7 +277,7 @@
 </div>
 <br>
 <div class="container text-center">
-            <h3 class="text-info"><b>#CruzadaXLaGuajira</b></h3>
+            <h3 class="text-info"><b>#ApoyoCruzadaXLaGuajira</b></h3>
             <a href="https://www.facebook.com/groups/1610017615960811/" class="btn btn-simple btn-round btn-dark btn-lg"><i class="fa fa-facebook"></i></a>
             <a href="https://www.instagram.com/sonrisasdonando/?hl=es-la" class="btn btn-simple btn-round btn-dark btn-lg"><i class="fa fa-instagram"></i></a>
 </div>
@@ -334,7 +334,31 @@
          <!--.row-->
      </div>
      <!--.item-->
-
+     <div class="carousel-item">
+         <div class="row">
+             <div class="col">
+                 <a href="#">
+                     <img  src="<?= base_url()?>template/Regna/img/chaguani1.jpg" alt="Image" style="max-width:100%;">
+                 </a>
+             </div>
+             <div class="col">
+                 <a href="#">
+                     <img class="img-fluid" src="<?= base_url()?>template/Regna/img/chaguani2.jpg" alt="Image" style="max-width:100%;">
+                 </a>
+             </div>
+             <div class="col">
+                 <a href="#">
+                     <img class="img-fluid" src="<?= base_url()?>template/Regna/img/chaguani3.jpg" alt="Image" style="max-width:100%;">
+                 </a>
+             </div>
+             <div class="col">
+                 <a href="#">
+                     <img class="img-fluid" src="<?= base_url()?>template/Regna/img/chaguani.jpg" alt="Image" style="max-width:100%;">
+                 </a>
+             </div>
+         </div>
+         <!--.row-->
+     </div>
      <div class="carousel-item">
          <div class="row">
              <div class="col">
