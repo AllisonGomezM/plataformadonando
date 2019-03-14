@@ -469,12 +469,14 @@
         </div>
       </div>
     </section><!-- #contact -->
-
-    <div class="text-center col-12" >
+<section>
+<div class="text-center col-12 container wow fadeInUp section-header" >
     <img class="img-fluid" src="<?= base_url()?>template/Regna/img/donando.jpg" href="https://www.facebook.com/groups/1610017615960811/" alt="">
-    <img class="img-fluid" src="<?= base_url()?>template/Regna/img/donando.jpg" href="https://www.facebook.com/groups/1610017615960811/" alt="">
+    <img class="img-fluid" src="<?= base_url()?>template/Regna/img/Captura.JPG" href="https://www.facebook.com/groups/1610017615960811/" alt="">
 
     </div>
+</section>
+
 
 <!-- Modal -->
 <div class="modal fade" id="lugares" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -493,7 +495,15 @@
               </div>
               <div>
                 <i class="fa fa-map-marker"></i>
-                <p>Bogotá<br>Cundinamarca</p>
+                <p>Facatativá<br>Cundinamarca</p>
+              </div>
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Medellin<br>Antioquia</p>
+              </div>
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Barranquilla<br>Atlántico</p>
               </div>
 
       </div>
