@@ -32,9 +32,21 @@ class Welcome extends CI_Controller {
 		$message = $this->input->post("message") ;
 		$headers = "From:" . $from;
 		if(mail($to,$subject,$message, $headers)){
-			echo "The email message was sent.";
+			$this->session->set_flashdata('envio', 
+			'<div class="alert alert-success alert-dismissible fade show" role="alert">
+                 <strong>Se ha enviado exitosamente</strong>
+                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                 </button>
+               </div>');
 		}else{
-			echo "The email message not sent.";	
+			$this->session->set_flashdata('envio',
+			'<div class="alert alert-danger alert-dismissible fade show" role="alert">
+                 <strong>Error!</strong> Un error ha ocurrido procesando la solicitud
+                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                 </button>
+               </div>');
 		}
 
 	}

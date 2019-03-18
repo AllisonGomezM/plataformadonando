@@ -434,7 +434,7 @@
               <div>
                 <i class="fa fa-phone"></i>
                 <p>+57 305 326 07 30</p>
-              </div>
+              </div> 
             </div>
 
             <div class="social-links">
@@ -464,6 +464,12 @@
                 </div>
                 <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
               </form>
+              <?php
+                    if($this->session->flashdata('envio')){
+                         echo $this->session->flashdata('envio');
+                    }
+                    redirect(base_url());
+              ?>
             </div>
           </div>
         </div>
