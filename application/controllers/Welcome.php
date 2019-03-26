@@ -27,26 +27,14 @@ class Welcome extends CI_Controller {
 		$from =  $this->input->post("email");
 		$cc="gestion@inkdigital.com";
 		$cco="soporte@inkdigital.com";
-		$to = "donandosonrisascol@gmail.com";
+		$to = "info@cruzadaporlaguajira.com.co";
 		$subject =$this->input->post("name", "Quiero contactarme con ustedes, quiero ser parte de esta cruzada. YO APOYO LA CRUZADA POR LA GUAJIRA") ;
 		$message = $this->input->post("message") ;
 		$headers = "From:" . $from;
 		if(mail($to,$subject,$message, $headers)){
-			$this->session->set_flashdata('envio', 
-			'<div class="alert alert-success alert-dismissible fade show" role="alert">
-                 <strong>Se ha enviado exitosamente</strong>
-                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                   <span aria-hidden="true">&times;</span>
-                 </button>
-               </div>');
+			echo "The email message was sent.";
 		}else{
-			$this->session->set_flashdata('envio',
-			'<div class="alert alert-danger alert-dismissible fade show" role="alert">
-                 <strong>Error!</strong> Un error ha ocurrido procesando la solicitud
-                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                   <span aria-hidden="true">&times;</span>
-                 </button>
-               </div>');
+			echo "The email message not sent.";	
 		}
 
 	}

@@ -58,16 +58,16 @@
     </div>
       <div class="row">
       <div class="col-md-3">
-      <img src="<?= base_url()?>template/Regna/img/1.png" alt="">
+      <img class="img-fluid" src="<?= base_url()?>template/Regna/img/1.png" alt="">
       </div>
       <div class="col-md-3">
-      <img src="<?= base_url()?>template/Regna/img/2.png" alt="">
+      <img class="img-fluid" src="<?= base_url()?>template/Regna/img/2.png" alt="">
       </div>
       <div class="col-md-3">
-      <img src="<?= base_url()?>template/Regna/img/3.png" alt="">
+      <img class="img-fluid" src="<?= base_url()?>template/Regna/img/3.png" alt="">
       </div>
       <div class="col-md-3">
-      <img src="<?= base_url()?>template/Regna/img/4.png" alt="">
+      <img class="img-fluid" src="<?= base_url()?>template/Regna/img/4.png" alt="">
       </div>
       </div>
 
@@ -125,8 +125,8 @@
 <br>
 <div class="container text-center">
             <h3 class="text-info"><b>#ApoyoCruzadaXLaGuajira</b></h3>
-            <a href="https://www.facebook.com/groups/1610017615960811/" class="btn btn-simple btn-round btn-dark btn-lg"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.instagram.com/sonrisasdonando/?hl=es-la" class="btn btn-simple btn-round btn-dark btn-lg"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/Cruzada-por-la-Guajira-2749499318401423/?view_public_for=2749499318401423/" class="btn btn-simple btn-round btn-dark btn-lg"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/cruzadaxlaguajira/?hl=es-la" class="btn btn-simple btn-round btn-dark btn-lg"><i class="fa fa-instagram"></i></a>
 </div>
 
  <!--==========================
@@ -148,14 +148,14 @@
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-heart-o"></i></div>
               <h4 class="title"><a href="<?= base_url()?>">Compra una Manilla</a></h4>
-              <a href="" class="btn-get-started col-4">Compra aquí</a>
+              <button  class="info btn btn-get-started btn-link" data-toggle="modal" data-target="#manillas">Compra aquí</button>
               <p class="description">El valor de la manilla es de $10.000 esto sera destinado a la compra de alimentos no perecederos y agua potable.</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-credit-card-alt"></i></div>
               <h4 class="title">Aporte Voluntario</h4>
-              <a href="" class="btn-get-started col-4">Aporta aquí</a>
+              <button  class="info btn btn-get-started btn-link" data-toggle="modal" data-target="#consignacion">Aporta aquí</button>
               <p class="description">Tú aporte economico lo puedes realizar por medio de: PayU y consignaciones bancarias, mínimo $10.000.
               <br>
               ¡Tú también puedes donar sonrisas y gotitas de amor!
@@ -190,9 +190,9 @@
             <h3 class="cta-title">Llámanos</h3>
             <p class="cta-text"> Tienes alguna duda, contactanos.</p>
             <div >
-            <a href="https://www.facebook.com/groups/1610017615960811/" class="facebook"><i class="fa fa-facebook"></i>   Donando Sonrisas Facatativá</a>
+            <a href="https://www.facebook.com/Cruzada-por-la-Guajira-2749499318401423/?view_public_for=2749499318401423" class="facebook"><i class="fa fa-facebook"></i>   Donando Sonrisas Facatativá</a>
             <br>
-            <a href="https://www.instagram.com/sonrisasdonando/?hl=es-la" class="instagram"><i class="fa fa-instagram"></i>  @sonrisasdonando</a>
+            <a href="https://www.instagram.com/cruzadaxlaguajira/?hl=es-la" class="instagram"><i class="fa fa-instagram"></i>  @sonrisasdonando</a>
             <br>
             <a href="http://api.whatsapp.com/send?phone=573053260730" class="telefono"><i class="fa fa-whatsapp "></i>   +57 305 326 07 30 </a>
          
@@ -278,8 +278,8 @@
 <br>
 <div class="container text-center">
             <h3 class="text-info"><b>#ApoyoCruzadaXLaGuajira</b></h3>
-            <a href="https://www.facebook.com/groups/1610017615960811/" class="btn btn-simple btn-round btn-dark btn-lg"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.instagram.com/sonrisasdonando/?hl=es-la" class="btn btn-simple btn-round btn-dark btn-lg"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/Cruzada-por-la-Guajira-2749499318401423/?view_public_for=2749499318401423" class="btn btn-simple btn-round btn-dark btn-lg"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/cruzadaxlaguajira/?hl=es-la" class="btn btn-simple btn-round btn-dark btn-lg"><i class="fa fa-instagram"></i></a>
 </div>
 
     <!--==========================
@@ -428,6 +428,8 @@
                 <p>donandosonrisascol@gmail.com
                   <br>
                    cruzadaxlaguajira@gmail.com
+                   <br>
+                   info@cruzadaporlaguajira.com.co
                 </p>
               </div>
 
@@ -438,8 +440,8 @@
             </div>
 
             <div class="social-links">
-            <a href="https://www.facebook.com/groups/1610017615960811/" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.instagram.com/sonrisasdonando/?hl=es-la" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/Cruzada-por-la-Guajira-2749499318401423/?view_public_for=2749499318401423" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/cruzadaxlaguajira/?hl=es-la" class="instagram"><i class="fa fa-instagram"></i></a>
             <a href="http://api.whatsapp.com/send?phone=573053260730" class="telefono"><i class="fa fa-whatsapp "></i></a>
           </div>
 
@@ -464,12 +466,7 @@
                 </div>
                 <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
               </form>
-              <?php
-                    if($this->session->flashdata('envio')){
-                         echo $this->session->flashdata('envio');
-                    }
-                    redirect(base_url());
-              ?>
+              
             </div>
           </div>
         </div>
@@ -477,8 +474,8 @@
     </section><!-- #contact -->
 <section>
 <div class="text-center col-12 container wow fadeInUp section-header" >
-    <img class="img-fluid" src="<?= base_url()?>template/Regna/img/donando.jpg" href="https://www.facebook.com/groups/1610017615960811/" alt="">
-    <img class="img-fluid" src="<?= base_url()?>template/Regna/img/Captura.JPG" href="https://www.facebook.com/groups/1610017615960811/" alt="">
+    <img class="img-fluid" src="<?= base_url()?>template/Regna/img/donando.jpg" href="https://www.facebook.com/Cruzada-por-la-Guajira-2749499318401423/?view_public_for=2749499318401423" alt="">
+    <img class="img-fluid" src="<?= base_url()?>template/Regna/img/Captura.JPG" href="https://www.instagram.com/cruzadaxlaguajira/?hl=es-la/" alt="">
 
     </div>
 </section>
@@ -497,20 +494,28 @@
       <div class="modal-body">
              <div>
                 <i class="fa fa-map-marker"></i>
-                <p>Bogotá<br>Cundinamarca</p>
+                <p>Bogotá - Cundinamarca <br>
+                     Cigarreria. La Esmeralda
+                <br>
+                     Cra 67a # 9a - 62 Barrio Salazar Gomez </p>
               </div>
               <div>
                 <i class="fa fa-map-marker"></i>
-                <p>Facatativá<br>Cundinamarca</p>
+                <p>Facatativá - Cundinamarca <br>
+                Papeleria El Molino
+                <br>
+                  Cra 2 # 16-20. Barrio Los Molinos
+                </p>
               </div>
               <div>
                 <i class="fa fa-map-marker"></i>
-                <p>Medellin<br>Antioquia</p>
+                <p>Medellin - Antioquia<br>
+                Toro Restaurante
+                <br>
+                Carrera 80#32ee4 Barrio Laureles
+                </p>
               </div>
-              <div>
-                <i class="fa fa-map-marker"></i>
-                <p>Barranquilla<br>Atlántico</p>
-              </div>
+      
 
       </div>
       <div class="modal-footer">
@@ -518,6 +523,75 @@
       </div>
     </div>
   </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="manillas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Compra de manillas</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+             <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Bogotá - Cundinamarca <br>
+                     Cigarreria La Esmeralda
+                <br>
+                     Cra 67a # 9a - 62 barrio Salazar Gomez </p>
+              </div>
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Facatativá - Cundinamarca <br>
+                Papeleria El Molino
+                <br>
+                  Cra 2 # 16-20 Barrio Los Molinos
+                </p>
+              </div>
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Medellin - Antioquia<br>
+                Toro Restaurante
+                <br>
+                Carrera 80#32ee4 Barrio Laureles
+                </p>
+              </div>
+      
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="consignacion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Aporte Voluntario</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+             <div>
+                <i class="fa fa-map-marker"></i>
+                <p> Banco  <br>
+                     Cuenta No. 
+                </p>
+              </div>
+      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+  
 </div>
   </main>
 

@@ -502,7 +502,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/guajira1.jpg) center top no-repeat;
+  image-rendering: auto inherit;
+  background: url(../img/guajira1.jpg)  center top no-repeat;
   margin-bottom: 10px;
 }
 
