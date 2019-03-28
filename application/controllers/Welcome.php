@@ -38,6 +38,10 @@ class Welcome extends CI_Controller {
 		}
 
 	}
+	public function sendcompra(){
+	
+	}
+	
 	public function __construct(){
 		parent::__construct();
 		$this->load->helper('url');
@@ -48,5 +52,13 @@ class Welcome extends CI_Controller {
 		$this->load->view('paginaprincipal/head');
 		$this->load->view('paginaprincipal/index');
 		$this->load->view('paginaprincipal/footer');
+		
 	}
+	public function successpage()
+	{
+		$this->load->view('paginartapayu/head');
+		$this->load->view('paginartapayu/index');
+		$this->load->view('paginartapayu/footer');
+	}
+
 }

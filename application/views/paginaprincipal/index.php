@@ -56,6 +56,7 @@
        </p>
        
     </div>
+
       <div class="row">
       <div class="col-md-3">
       <img class="img-fluid" src="<?= base_url()?>template/Regna/img/1.png" alt="">
@@ -148,7 +149,9 @@
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-heart-o"></i></div>
               <h4 class="title"><a href="<?= base_url()?>">Compra una Manilla</a></h4>
-              <button  class="info btn btn-get-started btn-link" data-toggle="modal" data-target="#manillas">Compra aquí</button>
+              <button  class="info btn btn-get-started btn-link" data-toggle="modal" data-target="#manillas">Lugares dónde las puedes comprar</button>
+              
+              <button  class="info btn btn-get-started btn-link" data-toggle="modal" data-target="#compra">Compra Aquí </button>
               <p class="description">El valor de la manilla es de $10.000 esto sera destinado a la compra de alimentos no perecederos y agua potable.</p>
             </div>
 
@@ -529,7 +532,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Compra de manillas</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"> Aquí puedes compra tus manillas</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -591,7 +594,95 @@
       </div>
     </div>
   </div>
-  
+
+</div>
+<!-- Modal -->
+<div class="modal fade" id="compra" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Compra tú manilla</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form action="<?= base_url();?>index.php/welcome/sendcompra" method="post" role="formcom" >
+      <div class="row counters ">
+        <div class="col-md-6">
+        <div class="form-group" class="col-lg-4 col-8 text-center">
+           <input type="text" name="name" class="form-control" id="nombre" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Por favor ingresa tu nombre" />
+           <div class="validation"></div>
+        </div>
+        </div>
+        <div class="form-group" class="col-lg-4 col-6 text-center">
+            <input type="text" name="apellido" class="form-control" id="apellido" placeholder="Tu Apellido" data-rule="minlen:4" data-msg="Por favor ingresa tu nombre" />
+            <div class="validation"></div>
+        </div>
+      </div>
+      <div class="row counters">
+        <div class="col-md-6">
+        <div class="form-group" class="col-lg-5 col-6 text-center" >
+           <select class="form-control" name="tipo" id="tipo">
+             <option value="cc">Cedula de Cuidadania</option>
+             <option value="ce">Cedula de Extranjeria</option>
+             <!-- <option value="ni">Número de identidicaión tributaria</option>
+             <option value="pp">Permiso especial de permanencia</option> -->
+           </select>
+          <div class="validation"></div>
+        </div>
+        </div>
+        
+        <div class="form-group" class="col-lg-4 col-10 text-center">
+          <input type="number" class="form-control" name="numdoc" id="numdoc" placeholder="Tu número de documento" data-rule="minlen:4" data-msg="Por favor ingresa tu número de documento" />
+          <div class="validation"></div>
+        </div>
+      </div>  
+      <div class="row counters">
+        <div class="col-md-6">
+        <div class="form-group" class="col-lg-5 col-6 text-center">
+            <input type="text" name="departamento" class="form-control" id="departamento" placeholder="Tu departamento" data-rule="minlen:4" data-msg="Por favor ingresa tú departamento" />
+            <div class="validation"></div>
+         </div>
+        </div>
+        
+         <div class="form-group" class="col-lg-7 col-6 text-center">
+            <input type="text" name="cuidad" class="form-control" id="cuidad" placeholder="Tu Cuidad" data-rule="minlen:4" data-msg="Por favor ingresa tu cuidad" />
+            <div class="validation"></div>
+         </div>
+      </div>
+      
+      <div class="form-group">
+        <input type="text" name="direccion" class="form-control" id="direccion" placeholder="Tu dirección" data-rule="minlen:4" data-msg="Por favor ingresa tu dirección" />
+        <div class="validation"></div>
+       </div>
+      <div class="form-group">
+        <input type="number" name="telefono" class="form-control" id="telefono" placeholder="Tu télefono" data-rule="minlen:4" data-msg="Por favor ingresa tú telefono" />
+        <div class="validation"></div>
+      </div>
+     
+      <div class="form-group">
+        <input type="email" class="form-control" name="email" id="email" placeholder="Tu correo" data-rule="email" data-msg="Por favor ingresa tu correo" />
+        <div class="validation"></div>
+      </div>
+      
+      <div class="form-group col-lg-7">
+        <input type="number" name="cantidad" class="form-control" id="cantidad" placeholder="Compra tu(s) manilla(s)" data-rule="minlen:" data-msg="Por favor ingresa la cantidad que quiers comprar" />
+        <div class="validation"></div>
+
+        
+      </div>
+                      
+      <div class="text-center"><button color="#2dc997" type="submit">Compra</button></div>
+     </form>
+      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
 </div>
   </main>
 
