@@ -25,13 +25,18 @@
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
-  <br>
 <br>
 <br>
 <br>
+<br>
+
   <main id="main">
     <br>
     <br>
+    <br>
+<br>
+<br>
+<br>
 <div class="container">
 <div class="hero-container">
       <div class="section-header">
@@ -43,7 +48,7 @@
 <br>
 <div class="row counters">
       <!-- <table> -->
-      <div class="col-md-18">
+      <div class="col-md-8">
         <div class="form-group" class="col-lg-5 col-6 text-center">
           <p class="description">
           Estado de la transacción:  
@@ -72,7 +77,12 @@
           <!-- <?php echo $cus; ?> -->
           </p>
         </div>
-        <div class="form-group" class="col-lg-5 col-6 text-center">
+        
+      </div>
+      <!-- </table> -->
+   
+   <div class="col-md-17">
+   <div class="form-group" class="col-lg-5 col-6 text-center">
           <p class="description">Banco:  
               <!-- <?php echo $pseBank; ?> -->
           </p>
@@ -101,10 +111,10 @@
           </p>
         </div>
 
-      </div>
-      <!-- </table> -->
-     
-    </div>
+   </div>   
+
+
+   </div>
 </div>
 </div>
 <div class="text-center col-12 container wow fadeInUp section-header" >
