@@ -52,28 +52,33 @@
         <div class="form-group" class="col-lg-5 col-6 text-center">
           <p class="description">
           Estado de la transacción:  
+          <input type="text">
             <!-- <?php echo $estadoTx; ?> -->
           </p>
         </div>
         <div class="form-group" class="col-lg-5 col-6 text-center">
-          <p class="description">ID de la transacción:  
+          <p class="description">ID de la transacción:
+          <input type="text">  
             <!-- <?php echo $transactionId; ?> -->
           </p>
         </div>
         <div class="form-group" class="col-lg-5 col-6 text-center">
           <p class="description">
-          Referencia de la venta:  
+          Referencia de la venta:
+          <input type="text">  
           <!-- <?php echo $reference_pol; ?> -->
           </p>
         </div>
         <div class="form-group" class="col-lg-5 col-6 text-center">
-          <p class="description">Referencia de la transacción:  
+          <p class="description">Referencia de la transacción:
+          <input type="text">  
              <!-- <?php echo $referenceCode; ?> -->
           </p>
         </div>
         <div class="form-group" class="col-lg-5 col-6 text-center">
           <p class="description">
           Cus:  
+          <input type="text">
           <!-- <?php echo $cus; ?> -->
           </p>
         </div>
@@ -83,18 +88,21 @@
    
    <div class="col-md-17">
    <div class="form-group" class="col-lg-5 col-6 text-center">
-          <p class="description">Banco:  
+          <p class="description">Banco: 
+            <input type="text">
               <!-- <?php echo $pseBank; ?> -->
           </p>
         </div>
         <div class="form-group" class="col-lg-5 col-6 text-center">
           <p class="description">
-          Valor total:   
+          Valor total:  
+          <input type="text"> 
              $<!-- <?php echo number_format($TX_VALUE); ?> -->
           </p>
         </div>
         <div class="form-group" class="col-lg-5 col-6 text-center">
-          <p class="description">Moneda:  
+          <p class="description">Moneda: 
+          <input type="text"> 
              <!-- <?php echo $currency; ?> -->
           </p>
         
@@ -102,11 +110,13 @@
         <div class="form-group" class="col-lg-5 col-6 text-center">
           <p class="description">
           Descripción:   
+          <input type="text">
           <!-- <?php echo ($extra1); ?> -->
           </p>
         </div>
         <div class="form-group" class="col-lg-5 col-6 text-center">
-          <p class="description">Entidad:   
+          <p class="description">Entidad:
+          <input type="text">   
              <!-- <?php echo ($lapPaymentMethod); ?> -->
           </p>
         </div>
