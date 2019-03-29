@@ -32,7 +32,8 @@ class Welcome extends CI_Controller {
 		$message = $this->input->post("message") ;
 		$headers = "From:" . $from;
 		if(mail($to,$subject,$message, $headers)){
-			echo "The email message was sent.";
+			redirect(site_url("welcome/msjpage"));
+
 		}else{
 			echo "The email message not sent.";	
 		}
@@ -59,6 +60,33 @@ class Welcome extends CI_Controller {
 		$this->load->view('paginartapayu/head');
 		$this->load->view('paginartapayu/index');
 		$this->load->view('paginartapayu/footer');
+		$this->load->library('form_validation');
+ 
 	}
+	public function comprapage()
+	{
+		$this->load->view('paginartapayu/head');
+		$this->load->view('paginacompra/index');
+		$this->load->view('paginartapayu/footer');
+		
+		$this->form_validation->set_rules('nombre', 'Nombre', 'required');
+	   
+		  $this->form_validation->set_error_delimiters('<div class="error">', '</div>');
+	   
+		  if ($this->form_validation->run() == FALSE) {
+	   
+			redirect(site_url("welcome/index"));
+	   
+		}
+		 else {
+	   
+			redirect(site_url("welcome/successpage"));
+	   
+	   }
+	}
+	public function msjpage()
+	{
+		$this->load->view('paginamsj/index');
+}
 
 }
